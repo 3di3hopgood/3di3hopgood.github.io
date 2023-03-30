@@ -4,12 +4,12 @@ body {
 }
 
 @font-face {
-    font-family: "BasteBTRIAL-Medium";
-    src: url("BasteBTRIAL-Medium.otf");
+    font-family: "TribaliumNeue-Poster";
+    src: url("TribaliumNeue-Poster.otf");
 } 
 
 h1 {
-    font-family: "BasteBTRIAL-Medium";
+    font-family: "TribaliumNeue-Poster";
     font-size: 100px;
     letter-spacing: 10px;
     text-align: center;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    font-family: "BasteBTRIAL-Medium";
+    font-family: "TribaliumNeue-Poster";
     letter-spacing: 5px;
     text-align: center;
     color:chartreuse;

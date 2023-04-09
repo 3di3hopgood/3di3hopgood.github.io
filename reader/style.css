@@ -17,8 +17,9 @@ h1 {
 }
 
 h2 {
-    font-family: "BGaramondt-Italic";
-    letter-spacing: 5px;
+    font-family: "Garamondt-Italic";
+    font-size: 40px;
+    letter-spacing: 3px;
     text-align: center;
     color:chartreuse;
 }

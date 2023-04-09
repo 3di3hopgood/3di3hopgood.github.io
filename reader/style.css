@@ -4,12 +4,12 @@ body {
 }
 
 @font-face {
-    font-family: "BBBAufgangOst-Light";
-    src: url("BBBAufgangOstGX.ttf");
+    font-family: "Garamondt-Italic";
+    src: url("Garamondt-Italic.otf");
 } 
 
 h1 {
-    font-family: "BBBAufgangOst-Light";
+    font-family: "Garamondt-Italic";
     font-size: 100px;
     letter-spacing: 10px;
     text-align: center;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    font-family: "BBBAufgangOst-Light";
+    font-family: "BGaramondt-Italic";
     letter-spacing: 5px;
     text-align: center;
     color:chartreuse;

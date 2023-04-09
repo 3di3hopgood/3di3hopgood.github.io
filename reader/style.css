@@ -8,6 +8,12 @@ body {
     src: url("Garamondt-Italic.otf");
 } 
 
+@font-face {
+    font-family: "Galvji";
+    src: url("Galvji.ttc");
+}
+
+
 h1 {
     font-family: "Garamondt-Italic";
     font-size: 100px;
@@ -17,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Garamondt-Italic";
+    font-family: "Galvji.ttc";
     font-size: 40px;
     letter-spacing: 3px;
     text-align: center;

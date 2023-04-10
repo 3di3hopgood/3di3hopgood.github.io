@@ -4,8 +4,8 @@ body {
 }
 
 @font-face {
-    font-family: "BBBAufgangOst-Regular+Light";
-    src: url("BBBAufgangOst-Regular+Light.ttf");
+    font-family: "BBBAufgangOst-Regular";
+    src: url("BBBAufgangOst-Regular.ttf");
 } 
 
 @font-face {
@@ -15,9 +15,9 @@ body {
 
 
 h1 {
-    font-family: "BBBAufgangOst-Regular+Light";
+    font-family: "BBBAufgangOst-Regular";
     font-size: 100px;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
     text-align: center;
     color: antiquewhite;
 }

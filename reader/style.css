@@ -1,6 +1,5 @@
 body {
-    background-color:blue;
-    font-family:Arial, Helvetica, sans-serif;
+    background-color:antiquewhite;
 }
 
 @font-face {
@@ -9,8 +8,8 @@ body {
 } 
 
 @font-face {
-    font-family: "Galvji";
-    src: url("Galvji.ttc");
+    font-family: "Garamondt-Italic";
+    src: url("Garamondt-Italic.otf");
 }
 
 
@@ -19,13 +18,29 @@ h1 {
     font-size: 100px;
     letter-spacing: 3px;
     text-align: center;
-    color: antiquewhite;
+    color: blue;
 }
 
 h2 {
-    font-family: "Galvji.ttc";
-    font-size: 30px;
-    letter-spacing: 1px;
+    font-family: "BBBAufgangOst-Regular";
+    font-size: 100px;
+    letter-spacing: 3px;
     text-align: center;
-    color:chartreuse;
+    color:blue;
+}
+
+h3 {
+    font-family: "BBBAufgangOst-Regular";
+    font-size: 100px;
+    letter-spacing: 3px;
+    text-align: center;
+    color:blue;
+}
+
+h4 {
+    font-family: "Garamondt-Italic";
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    color:purple;
 }

@@ -21,6 +21,14 @@ h1 {
     color: blue;
 }
 
+h2 {
+    font-family: "BBBAufgangOst-Regular";
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: blue;
+}
+
 h4 {
     font-family: "Garamondt-Italic";
     font-size: 40px;

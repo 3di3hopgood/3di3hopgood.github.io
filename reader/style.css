@@ -32,12 +32,15 @@ h4 {
 * {
     box-sizing: border-box;
     box-sizing: 100px;
+    width: 100%;
+    background-color: blue;
+    border: 1px solid black;
 }
   
 div.container 
 
   div.item {
-    font-size: 200px;
+    font-size: 20px;
     padding: 20px;
     font-family: "Garamondt-Italic";
     width: 100%;

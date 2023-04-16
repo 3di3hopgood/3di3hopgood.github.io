@@ -21,11 +21,11 @@ h1 {
     color: blue;
 }
 
-h3 {
+h2 {
     font-family: "BBBAufgangOst-Regular";
     font-size: 70px;
     letter-spacing: 3px;
-    text-align: center;
+    text-align: top center;
     color: blue;
 }
 
@@ -63,6 +63,7 @@ h4 {
   }
   
   div.item.purple {
+    font-size: 20px;
     background-color: blue;
   }
   

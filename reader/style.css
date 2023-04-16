@@ -34,7 +34,7 @@ h4 {
     font-size: 40px;
     letter-spacing: 2px;
     text-align: center;
-    color:purple;
+    color:red;
 }
 
 * {
@@ -52,7 +52,7 @@ h4 {
     padding: 20px;
     font-family: arial;
     width: 100%;
-    background-color: purple;
+    background-color: red;
     border: 1px solid black;
   }
 
@@ -63,6 +63,6 @@ h4 {
   }
   
   div.item.purple {
-    background-color: purple;
+    background-color: red;
   }
   

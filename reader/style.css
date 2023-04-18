@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: "Galvji-Oblique";
-    src: url("Galvji-Oblique.ttf");
+    src: url("Galvji-Oblique.ttc");
 }
 
 
@@ -45,7 +45,7 @@ h3 {
 h4 {
     font-family: "Galvji-Oblique";
     font-size: 25px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
     color: black;
 }

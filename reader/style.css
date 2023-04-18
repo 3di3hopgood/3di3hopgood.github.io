@@ -80,7 +80,8 @@ h4 {
     border: 3px dashed blue;
     padding: 20px;
     font-family: "Galvji-Oblique";
-    color: black;
+    color: blue;
+    background-color: white;
     width: 100%;
     margin-bottom: 20px;
     font-size: 20px;;

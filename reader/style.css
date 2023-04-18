@@ -70,7 +70,7 @@ h4 {
   }
 
   div.item.text {
-    font-size: 40px;
+    font-size: 30px;
     width: 100%;
     background-color: red;
     text-align: center;
@@ -89,7 +89,7 @@ h4 {
   
   div.blockleft {
   font-family: "Galvji-Oblique";
-  font-size: 10px;
+  font-size: 20px;
   margin-bottom: 20px;
   width: 500px;
   margin-left: 100px;

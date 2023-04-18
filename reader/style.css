@@ -43,7 +43,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Galvji-Oblique";
+    font-family: "Galvji-Oblique";
     font-size: 25px;
     letter-spacing: 1px;
     text-align: center;
@@ -65,6 +65,7 @@ h4 {
     padding: 20px;
     font-family: "Galvji-Oblique";
     width: 100%;
+    text-align: center;
     border: 1px solid black;
   }
 
@@ -76,18 +77,18 @@ h4 {
     margin-bottom: 20px;
   }
   
-  div.item.dashed {
+  div.dashed {
     border: 3px dashed blue;
     padding: 20px;
     font-family: "Galvji-Oblique";
-    color: blue;
     background-color: white;
     width: 100%;
     margin-bottom: 20px;
-    font-size: 20px;;
+    font-size: 20px;
   }
   
   div.blockleft {
+  font-family: "Galvji-Oblique";
   font-size: 10px;
   margin-bottom: 20px;
   width: 500px;

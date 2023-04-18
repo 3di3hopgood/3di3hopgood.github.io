@@ -66,7 +66,6 @@ h4 {
   }
 
   div.item {
-    font-size: 200px;
     padding: 20px;
     font-family: "Galvji-Oblique";
     width: 100%;
@@ -94,7 +93,7 @@ h4 {
   
   div.blockleft {
   font-family: "Galvji-Oblique";
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 20px;
   width: 500px;
   margin-left: 100px;

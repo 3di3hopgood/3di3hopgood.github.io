@@ -16,6 +16,8 @@ body {
 h1 {
     font-family: "BBBAufgangOst-Regular";
     font-size: 70px;
+    padding-top: 14px;
+    padding-bottom: 7px;
     letter-spacing: 3px;
     text-align: center;
     color: blue;
@@ -24,6 +26,8 @@ h1 {
 h3 {
     font-family: "BBBAufgangOst-Regular";
     font-size: 70px;
+    padding-top: 7px;
+    padding-bottom: 14px;
     letter-spacing: 3px;
     text-align: center;
     color: blue;

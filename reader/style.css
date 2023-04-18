@@ -76,7 +76,7 @@ h4 {
     margin-bottom: 20px;
   }
   
-  div.dashed {
+  div.item.dashed {
     border: 3px dashed blue;
     padding: 20px;
     font-family: "Galvji-Oblique";

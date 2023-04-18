@@ -75,7 +75,11 @@ h4 {
     background-color: red;
   }
   
-  div.item.purple {
+  div.dashed {
+    border: 3px dashed black;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
     font-size: 20px;
     background-color: blue;
   }

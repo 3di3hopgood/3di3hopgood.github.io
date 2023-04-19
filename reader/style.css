@@ -74,7 +74,7 @@ h4 {
   }
 
   div.item.text {
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
     background-color: red;
     text-align: center;
@@ -82,7 +82,7 @@ h4 {
   }
   
   div.text {
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
     background-color: blue;
     font-family: "Galvji-Oblique"

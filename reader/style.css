@@ -77,7 +77,8 @@ h4 {
     border: 3px solid black;
   }
 
-  div.text {
+  div.item.text {
+    font-family: ;
     font-size: 30px;
     width: 100%;
     background-color: red;
@@ -87,7 +88,7 @@ h4 {
     color: black;
   }
   
-  div.item.text {
+  div.text {
     font-size: 20px;
     width: 100%;
     background-color: blue;
@@ -96,6 +97,7 @@ h4 {
     margin-bottom: 20px;
     padding: 20px;
     color: white;
+    border: 3px solid black;
   }
   
   div.blockleft.dashed {

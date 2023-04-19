@@ -53,7 +53,7 @@ h3 {
 
 h4 {
     font-family: "Galvji-Bold";
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 1px;
     text-align: center;
     color: black;
@@ -107,6 +107,7 @@ h4 {
   }
 
   div.circle {
+    margin-top: 20px
     font-size: 20px;
     font-family: "Galvji-Bold"
     border: 3px solid red;

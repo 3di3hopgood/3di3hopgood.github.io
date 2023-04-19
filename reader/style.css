@@ -78,7 +78,6 @@ h4 {
   }
 
   div.item.text {
-    font-family: ;
     font-size: 30px;
     width: 100%;
     background-color: red;
@@ -88,7 +87,8 @@ h4 {
     color: black;
   }
   
-  div.text {
+  div.item.blue {
+    padding: 25px;
     font-size: 20px;
     width: 100%;
     background-color: blue;
@@ -100,10 +100,9 @@ h4 {
     border: 3px solid black;
   }
   
-  div.blockleft.dashed {
+  div.blockleft {
   font-family: "BBBAufgangOst-Regular";
   font-size: 20px;
-  border: 100% dashed blue;
   margin-bottom: 20px;
   width: 500px;
   margin-left: 200px;

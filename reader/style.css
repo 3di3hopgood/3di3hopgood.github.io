@@ -73,7 +73,7 @@ h4 {
     border: 1px solid black;
   }
 
-  div.item.text {
+  div.item {
     font-size: 20px;
     width: 100%;
     background-color: red;

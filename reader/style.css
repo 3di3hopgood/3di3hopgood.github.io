@@ -78,17 +78,15 @@ h4 {
   }
 
   div.item.text {
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     background-color: red;
-    colour
     text-align: center;
     margin-bottom: 20px;
     color: black;
   }
   
   div.item.blue {
-    padding: 25px;
     font-size: 20px;
     width: 100%;
     background-color: blue;
@@ -97,7 +95,6 @@ h4 {
     margin-bottom: 20px;
     padding: 20px;
     color: white;
-    border: 3px solid black;
   }
   
   div.blockleft {

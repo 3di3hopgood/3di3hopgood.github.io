@@ -92,7 +92,7 @@ h4 {
     color: white;
   }
   
-  div.blockleft.dashed {
+  div.blockleft {
   border: 3px dashed blue;
   font-family: "Galvji";
   font-size: 20px;

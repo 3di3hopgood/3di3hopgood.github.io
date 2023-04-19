@@ -77,6 +77,7 @@ h4 {
     border: 3px solid black;
   }
 
+
   div.item.text {
     font-size: 25px;
     width: 100%;
@@ -90,7 +91,7 @@ h4 {
     font-size: 20px;
     width: 100%;
     background-color: blue;
-    font-family: "Galvji"
+    font-family: "Galvji-Bold"
     text-align: center;
     margin-bottom: 20px;
     padding: 20px;

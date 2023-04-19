@@ -12,10 +12,10 @@ body {
     src: url("Galvji-Regular.ttc");
 }
 
-@font-face [
+@font-face {
   font-family: "Galvji-Oblique";
     src: url("Galvji-Oblique.ttc");
-]
+}
 
 
 h1 {

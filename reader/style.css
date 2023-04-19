@@ -100,6 +100,7 @@ h4 {
   
   div.blockleft {
    font-family: "BBBAufgangOst-Regular";
+   color: black;
    font-size: 20px;
    margin-bottom: 80px;
    width: 400px;
@@ -109,6 +110,7 @@ h4 {
 
   div.blockright {
    font-family: "BBBAufgangOst-Regular";
+   color: black;
    font-size: 20px;
    margin-bottom: 100px;
    width: 300px;

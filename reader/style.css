@@ -17,6 +17,10 @@ body {
     src: url("Galvji-Oblique.ttc");
 }
 
+@font-face {
+  font-family: "Galvji-BoldOblique";
+  src: url("Galvji-BoldOblique.ttc");
+}
 
 h1 {
   font-family: "BBBAufgangOst-Regular";
@@ -67,7 +71,7 @@ h4 {
 
   div.item {
     padding: 20px;
-    font-family: "Galvji";
+    font-family: ""Galvji-BoldOblique"";
     width: 100%;
     text-align: center;
     border: 1px solid black;
@@ -87,14 +91,14 @@ h4 {
     font-size: 20px;
     width: 100%;
     background-color: blue;
-    font-family: "Galvji"
+    font-family: "Galvji-Oblique"
     text-align: center;
     margin-bottom: 20px;
     padding: 20px;
     color: white;
   }
   
-  div.blockleft {
+  div.blockleft.dashed {
   border: 100% dashed blue;
   font-family: "Galvji";
   font-size: 20px;

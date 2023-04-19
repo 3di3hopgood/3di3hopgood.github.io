@@ -13,7 +13,7 @@ body {
 }
 
 @font-face {
-  font-family: "Galvji-Oblique";
+    font-family: "Galvji-Oblique";
     src: url("Galvji-Oblique.ttc");
 }
 
@@ -83,11 +83,11 @@ h4 {
     color: black;
   }
   
-  div.text {
+  div.item.text {
     font-size: 20px;
     width: 100%;
     background-color: blue;
-    font-family: "Galvji-Oblique"
+    font-family: "Galvji"
     text-align: center;
     margin-bottom: 20px;
     padding: 20px;
@@ -95,11 +95,11 @@ h4 {
   }
   
   div.blockleft {
-  border: 3px dashed blue;
+  border: 100% dashed blue;
   font-family: "Galvji";
   font-size: 20px;
   margin-bottom: 20px;
   width: 500px;
   margin-left: 100px;
-  height: 300px;
+  height: 300px
   }

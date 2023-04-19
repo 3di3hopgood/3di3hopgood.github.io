@@ -81,17 +81,19 @@ h4 {
     margin-bottom: 20px;
   }
   
-  div.dashed {
-    border: 3px dashed blue;
-    padding: 20px;
-    font-family: "Galvji-Oblique";
-    background-color: white;
+  div.text {
+    font-size: 30px;
     width: 100%;
+    background-color: blue;
+    font-family: "Galvji-Oblique"
+    text-align: center;
     margin-bottom: 20px;
-    font-size: 20px;
+    padding: 20px;
+    color: white;
   }
   
-  div.blockleft {
+  div.blockleft.dashed {
+  border: 3px dashed blue;
   font-family: "Galvji";
   font-size: 20px;
   margin-bottom: 20px;

@@ -70,11 +70,11 @@ h4 {
   }
 
   div.item {
-    padding: 20px;
-    font-family: ""Galvji-BoldOblique"";
+    padding: 25px;
+    font-family: "Galvji-BoldOblique";
     width: 100%;
     text-align: center;
-    border: 1px solid black;
+    border: 3px solid black;
   }
 
   div.item {
@@ -91,7 +91,7 @@ h4 {
     font-size: 20px;
     width: 100%;
     background-color: blue;
-    font-family: "Galvji-Oblique"
+    font-family: "Galvji"
     text-align: center;
     margin-bottom: 20px;
     padding: 20px;
@@ -99,9 +99,9 @@ h4 {
   }
   
   div.blockleft.dashed {
-  border: 100% dashed blue;
-  font-family: "Galvji";
+  font-family: "BBBAufgangOst-Regular";
   font-size: 20px;
+  border: 100% dashed blue;
   margin-bottom: 20px;
   width: 500px;
   margin-left: 100px;

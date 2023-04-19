@@ -8,8 +8,8 @@ body {
 } 
 
 @font-face {
-    font-family: "Galvji";
-    src: url("Galvji-Regular.ttc");
+    font-family: "Galvji-Bold";
+    src: url("Galvji-Bold.ttc");
 }
 
 @font-face {
@@ -52,7 +52,7 @@ h3 {
 }
 
 h4 {
-    font-family: "Galvji";
+    font-family: "Galvji-Bold";
     font-size: 30px;
     letter-spacing: 1px;
     text-align: center;
@@ -108,7 +108,7 @@ h4 {
 
   div.circle {
     font-size: 20px;
-    font-family: "Galvji"
+    font-family: "Galvji-Bold"
     border: 3px solid red;
     height: 500px;
     width: 500px;

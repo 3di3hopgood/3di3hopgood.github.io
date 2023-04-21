@@ -34,16 +34,7 @@ body {
 .header h1 {
   font-family: "Galvji-Bold";
   font-size: 10px;
-  text-align: left;
-  margin: 0;
-  padding: 10px;
-  color: white;
-}
-
-.header h2 {
-  font-family: "Galvji-Bold";
-  font-size: 10px;
-  text-align: right;
+  text-align: center;
   margin: 0;
   padding: 10px;
   color: white;

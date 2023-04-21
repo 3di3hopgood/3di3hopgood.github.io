@@ -32,6 +32,9 @@ body {
 }
 
 .header h1 {
+  font-family: "Galvji-Bold";
+  font-size: 10px;
+  text-align: left;
   margin: 0;
   padding: 10px;
   color: white;

@@ -22,6 +22,17 @@ body {
   src: url("Galvji-BoldOblique.ttc");
 }
 
+.header {
+  background-color: blue;
+  height: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 10px;
+  color: white;
+}
+
 h1 {
   font-family: "BBBAufgangOst-Regular";
   font-size: 80px;

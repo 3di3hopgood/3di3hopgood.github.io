@@ -24,7 +24,7 @@ body {
 
 .header {
   background-color: blue;
-  height: 50px;
+  height: 100px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -34,6 +34,10 @@ body {
   margin: 0;
   padding: 10px;
   color: white;
+}
+
+main {
+  margin-top: 40px
 }
 
 h1 {

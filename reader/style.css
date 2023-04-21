@@ -24,7 +24,7 @@ body {
 
 .header {
   background-color: blue;
-  height: 80px;
+  height: 40px;
   position: static;
   top: 0;
   width: 100%;
@@ -39,6 +39,16 @@ body {
   padding: 10px;
   color: white;
 }
+
+.header h2 {
+  font-family: "Galvji-Bold";
+  font-size: 10px;
+  text-align: right;
+  margin: 0;
+  padding: 10px;
+  color: white;
+}
+
 
 main {
   margin-top: 40px

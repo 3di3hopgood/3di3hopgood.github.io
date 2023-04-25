@@ -4,12 +4,12 @@ body {
 
 @font-face {
     font-family: "BBBAufgangOst-Regular";
-    src: url("BBBAufgangOst-Regular.ttf");
+    src: url('custom-font/BBBAufgangOst-Regular.ttf');
 } 
 
 @font-face {
     font-family: "Galvji-Bold";
-    src: url("Galvji-Bold.ttc");
+    src: url('Galvji-Bold.ttc');
 }
 
 @font-face {

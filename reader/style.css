@@ -179,6 +179,14 @@ main {
   margin-bottom: -10px;
 }
 
+.content.p4 {
+  font-family: "BigCaslon-Medium";
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: -10px;
+}
+
 .underline-text {
   text-decoration: underline;
   margin-bottom: 10px;
@@ -193,7 +201,23 @@ main {
   height: 10px;
 }
 
+.content.p5 {
+  font-family: "BigCaslon-Medium";
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: -10px;
+}
+
 .contentp6 {
+  font-family: "BigCaslon-Medium";
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: -10px;
+}
+
+.content.p7 {
   font-family: "BigCaslon-Medium";
   color: black;
   font-size: 20px;
@@ -208,15 +232,6 @@ hr {
     background-color: black;
 }
 
-div.item.text {
-    font-size: 25px;
-    width: 100%;
-    background-color: red;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: black;
-  }
   
   div.item.blue {
     font-size: 20px;
@@ -265,7 +280,7 @@ div.item.text {
 .footer p {
   font-family: "Galvji-Bold";
   font-size: 10px;
-  text-align: left;
+  text-align: right;
   margin: 0;
   padding: 10px;
   color: white;

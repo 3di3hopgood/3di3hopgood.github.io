@@ -49,14 +49,6 @@ body {
   color: white;
 }
 
-.header h1:first-child {
-  margin-left: 10px;
-}
-
-.header h1:last-child {
-  margin-right: 10px;
-}
-
 .margin-space {
   height: 30px;
 }

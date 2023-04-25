@@ -80,6 +80,7 @@ header h1 {
 .title h5 {
     font-family: "Galvji-Bold";
     font-size: 25px;
+    border-radius: 10px;
     letter-spacing: 1px;
     text-align: left;
     margin-right: 20px;
@@ -88,7 +89,6 @@ header h1 {
 
 hr {
   width: 100%;
-
 }
 
 main {
@@ -129,14 +129,23 @@ main {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    padding: 20px;
   }
   
-  .article h2 {
+  .article h6 {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+  }
+
+
+  .article content {
+    font-family: "Galvji-BoldOblique";
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    padding: 20px;
   }
 
   div.item.text {
@@ -189,7 +198,7 @@ main {
     margin-top: 40px;
   }
 
-  .footer h6 {
+  .footer h8 {
     font-family: "Galvji-Bold";
     font-size: 10px;
     text-align: center;

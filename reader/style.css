@@ -235,7 +235,7 @@ div.item.text {
     height: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: right;
     padding: 10px;
     font-family: "Galvji-Bold";
     font-size: 10px;
@@ -249,7 +249,7 @@ div.item.text {
     color: white;
     font-family: "Galvji-Bold";
     font-size: 10px;
-    text-align: center;
+    text-align: right;
     margin: 0;
     padding: 10px;
 }

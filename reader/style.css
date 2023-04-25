@@ -130,7 +130,7 @@ main {
   border-radius: 10px;
 }
 
-.article content {
+.content.p2 {
     font-family: "BigCaslon-Medium";
     color: black;
     font-size: 20px;
@@ -138,7 +138,7 @@ main {
     margin-bottom: -10px;
 }
 
-.articlep3 {
+.content.p3 {
   font-family: "BigCaslon-Medium";
   color: black;
   font-size: 20px;
@@ -146,12 +146,12 @@ main {
   margin-bottom: -10px;
 }
 
-.articlep4 {
+.footerp4 {
   text-underline-position: under;
   margin-bottom: -10px;
 }
 
-.articlep6 {
+.contentp6 {
   font-family: "BigCaslon-Medium";
   color: black;
   font-size: 20px;
@@ -159,7 +159,7 @@ main {
   margin-bottom: -10px;
 }
 
-.articlep7 {
+.footerp7 {
   text-underline-position: under;
 }
 

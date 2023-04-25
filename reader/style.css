@@ -22,6 +22,11 @@ body {
   src: url("Galvji-BoldOblique.ttc");
 }
 
+@font-face {
+  font-family: "BigCaslon-Medium";
+  src: url("BigCaslon.ttf")
+}
+
 header {
   background-color: blue;
   height: 40px;
@@ -143,14 +148,14 @@ main {
   }
 
   .article content {
-    font-family: "Galvji-BoldOblique";
+    font-family: "BigCaslon-Medium";
     color: black;
     font-size: 20px;
     padding: 20px;
     padding: 20px;
   }
 
-  .article.comments {
+  .article comments {
   text-underline-position: under;
   }
 

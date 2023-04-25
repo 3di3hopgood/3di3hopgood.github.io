@@ -122,11 +122,21 @@ main {
     border-radius: 10px;
 }
 
-.article content {
+.article1 content {
     font-family: "BigCaslon-Medium";
     color: black;
     font-size: 20px;
     padding: 20px;
+    margin-bottom: -10px;
+}
+
+.article2 content {
+  font-family: "BigCaslon-Medium";
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
 .article.comments {

@@ -122,18 +122,24 @@ main {
     border-radius: 10px;
 }
 
-  .article content {
+.article content {
     font-family: "BigCaslon-Medium";
     color: black;
     font-size: 20px;
     padding: 20px;
-  }
+}
 
-  .article.comments {
+.article.comments {
   text-underline-position: under;
-  }
+}
+  
+hr {
+    width: 100%;
+    height: 3px;
+    color: black;
+}
 
-  div.item.text {
+div.item.text {
     font-size: 25px;
     width: 100%;
     background-color: red;
@@ -174,20 +180,20 @@ main {
    height: 400px
   }
 
-  .footer {
+.footer {
     background-color: blue;
     height: 40px;
     bottom: 0;
     left: 0;
     width: 100%;
     margin-top: 40px;
-  }
+}
 
-  .footer h8 {
+.footer h8 {
     font-family: "Galvji-Bold";
     font-size: 10px;
     text-align: center;
     margin: 0;
     padding: 10px;
     color: white;
-  }
+}

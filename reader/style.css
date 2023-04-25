@@ -112,13 +112,21 @@ main {
     margin-bottom: 20px;
 }
   
-.article h6 {
+.article1 h6 {
     font-family: "BBBAufgangOst-Regular";
     color: black;
     font-size: 40px;
     text-align: left;
     margin-bottom: 20px;
     border-radius: 10px;
+}
+.article2 h6 {
+  font-family: "BBBAufgangOst-Regular";
+  color: black;
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .article1 content {

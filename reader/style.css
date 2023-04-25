@@ -240,26 +240,22 @@ div.item.text {
   }
 
 .footer {
-    background-color: blue;
-    color: white;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: right;
-    padding: 10px;
-    font-family: "Galvji-Bold";
-    font-size: 10px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    margin-top: 40px;
+  background-color: blue;
+  height: 40px;
+  display: flex;
+  font-family: "Galvji-Bold";
+  font-size: 10px;
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .footer p {
-    color: white;
-    font-family: "Galvji-Bold";
-    font-size: 10px;
-    text-align: right;
-    margin: 0;
-    padding: 10px;
+  font-family: "Galvji-Bold";
+  font-size: 10px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: white;
 }

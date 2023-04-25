@@ -124,6 +124,10 @@ main {
    margin-bottom: 20px;
 }
 
+.margin-space {
+  height: 10px;
+}
+
 .article {
     background-color: white;
     padding: 20px;
@@ -181,6 +185,10 @@ main {
   font-size: 15px;
   text-align: left;
   background-color: white;
+}
+
+.margin-space {
+  height: 10px;
 }
 
 .contentp6 {
@@ -254,7 +262,7 @@ div.item.text {
 .footer p {
   font-family: "Galvji-Bold";
   font-size: 10px;
-  text-align: center;
+  text-align: right;
   margin: 0;
   padding: 10px;
   color: white;

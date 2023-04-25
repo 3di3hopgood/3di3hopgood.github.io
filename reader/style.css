@@ -144,6 +144,7 @@ main {
     margin-bottom: 20px;
     border-radius: 10px;
 }
+
 .article h6 {
   font-family: "BBBAufgangOst-Regular";
   color: black;
@@ -233,7 +234,7 @@ hr {
 }
 
   
-  div.item.blue {
+div.item.blue {
     font-size: 20px;
     width: 100%;
     background-color: blue;
@@ -242,9 +243,9 @@ hr {
     margin-bottom: 20px;
     padding: 20px;
     color: white;
-  }
-  
-  div.blockleft {
+} 
+
+div.blockleft {
    font-family: "BBBAufgangOst-Regular";
    color: black;
    font-size: 20px;
@@ -252,9 +253,9 @@ hr {
    width: 400px;
    margin-left: 200px;
    height: 300px
-  }
+}
 
-  div.blockright {
+div.blockright {
    font-family: "BBBAufgangOst-Regular";
    color: black;
    font-size: 20px;
@@ -262,7 +263,7 @@ hr {
    width: 400px;
    margin-right: 200px;
    height: 400px
-  }
+}
 
 .footer {
   background-color: blue;

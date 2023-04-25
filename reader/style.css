@@ -87,6 +87,10 @@ header {
     color: black;
 }
 
+hr {
+  width: 100%;
+}
+
 main {
   margin-top: 40px
 }

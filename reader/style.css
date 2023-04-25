@@ -112,7 +112,7 @@ main {
     margin-bottom: 20px;
 }
   
-.article1 h6 {
+.article h6 {
     font-family: "BBBAufgangOst-Regular";
     color: black;
     font-size: 40px;
@@ -120,7 +120,7 @@ main {
     margin-bottom: 20px;
     border-radius: 10px;
 }
-.article2 h6 {
+.article h6 {
   font-family: "BBBAufgangOst-Regular";
   color: black;
   font-size: 40px;
@@ -129,7 +129,7 @@ main {
   border-radius: 10px;
 }
 
-.article1 content {
+.article content {
     font-family: "BigCaslon-Medium";
     color: black;
     font-size: 20px;
@@ -137,7 +137,7 @@ main {
     margin-bottom: -10px;
 }
 
-.article2 content {
+.article content {
   font-family: "BigCaslon-Medium";
   color: black;
   font-size: 20px;
@@ -150,9 +150,6 @@ main {
   text-underline-position: under;
 }
 
-.article2 footer {
-  text-underline-position: under;
-}
   
 hr {
     width: 100%;

@@ -164,8 +164,8 @@ main {
   margin-bottom: -10px;
 }
 
-.footer {
-  text-underline-position: under;
+.underline-text {
+  text-decoration: underline;
   margin-bottom: 10px;
   font-family: "Galvji-Bold";
   font-size: 20px;

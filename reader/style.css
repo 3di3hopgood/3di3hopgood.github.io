@@ -24,7 +24,7 @@ body {
 
 header {
   background-color: blue;
-  height: 30px;
+  height: 40px;
   top: 0;
   left: 0;
   width: 100%;
@@ -199,11 +199,12 @@ main {
     background-color: blue;
     height: 40px;
     bottom: 0;
+    left: 0;
     width: 100%;
     margin-top: 40px;
   }
 
-  .footer h1 {
+  .footer-content {
     font-family: "Galvji-Bold";
     font-size: 10px;
     text-align: center;

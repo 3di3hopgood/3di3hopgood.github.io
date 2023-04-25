@@ -110,12 +110,12 @@ hr {
   border-inline-color: black;
 }
 
-div.item.black {
-  background-color: black;
+div.item.blue {
+  background-color: blue;
   font-family: "BigCaslon-Medium"
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: black;
   width: 100%;
   margin-bottom: 20px;
   padding: 40px;

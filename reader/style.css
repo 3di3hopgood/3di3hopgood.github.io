@@ -141,7 +141,7 @@ main {
   }
   
   .article h6 {
-    font-family: "Galvji-BoldOblique";
+    font-family: "Galvji-Bold";
     color: black;
     font-size: 40px;
     padding: 20px;
@@ -157,7 +157,7 @@ main {
     padding: 20px;
   }
 
-  .article comments {
+  .article.comments {
   text-underline-position: under;
   }
 

@@ -133,7 +133,9 @@ main {
   }
   
   .article h6 {
-    background-color: white;
+    font-family: "Galvji-BoldOblique";
+    color: black;
+    font-size: 40px;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;

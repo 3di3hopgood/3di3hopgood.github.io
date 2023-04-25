@@ -92,13 +92,13 @@ body {
     text-align: left;
     margin-right: 20px;
     margin-top: -50px;
-    color: black;
+    color: blue;
 }
 
 hr {
   width: 100%;
   height: 3px;
-  background-color: black;
+  border-inline-color: black;
 }
 
 main {

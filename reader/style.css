@@ -133,9 +133,10 @@ main {
 .date {
   font-family: "Galvji-Bold";
   color: black;
+  text-align: left;
   font-size: 25px;
-  padding: 20px;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .content.p2 {
@@ -154,9 +155,11 @@ main {
   margin-bottom: -10px;
 }
 
-.footerp4 {
+.footer {
   text-underline-position: under;
   margin-bottom: 10px;
+  font-family: "Galvji-Bold";
+  font-size: 20px;
 }
 
 .contentp6 {
@@ -165,10 +168,6 @@ main {
   font-size: 20px;
   padding: 20px;
   margin-bottom: -10px;
-}
-
-.footerp7 {
-  text-underline-position: under;
 }
 
   

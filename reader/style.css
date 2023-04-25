@@ -22,30 +22,32 @@ body {
   src: url("Galvji-BoldOblique.ttc");
 }
 
-.header {
+header {
   background-color: blue;
   height: 30px;
   top: 0;
+  left: 0;
   width: 100%;
-  margin-bottom: 80px;
 }
 
-.header h1 {
+.header-content {
   font-family: "Galvji-Bold";
   font-size: 10px;
-  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 10px;
-  color: white;
 }
 
-
-main {
-  margin-top: 40px
+.margin-space {
+  height: 60px;
 }
 
 .title {
   margin-top: 20px;
+  text-align: center;
 }
 
 .title h2 {
@@ -85,6 +87,10 @@ main {
     text-align: left;
     margin-left: 20px;
     color: black;
+}
+
+main {
+  margin-top: 40px
 }
 
 * {

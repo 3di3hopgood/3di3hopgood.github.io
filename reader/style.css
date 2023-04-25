@@ -77,13 +77,14 @@ header h1 {
     color: blue;
 }
 
-.title h5 {
+.subtitle h5 {
     font-family: "Galvji-Bold";
     font-size: 25px;
     border-radius: 10px;
     letter-spacing: 1px;
     text-align: left;
     margin-right: 20px;
+    margin-top: -30px;
     color: black;
 }
 

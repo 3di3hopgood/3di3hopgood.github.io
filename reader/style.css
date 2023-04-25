@@ -23,16 +23,19 @@ body {
 }
 
 header {
-  padding: 10px;
-  text-align: center;
   background-color: blue;
-  font-family: "Galvji-Bold";
-  color: white
-  font-size: 10px;
   height: 40px;
   top: 0;
   left: 0;
   width: 100%;
+}
+
+header h1 {
+  padding: 10px;
+  text-align: center;
+  font-family: "Galvji-Bold";
+  color: white
+  font-size: 10px;
 }
 
 .margin-space {
@@ -201,9 +204,10 @@ main {
     left: 0;
     width: 100%;
     margin-top: 40px;
+    position: fixed;
   }
 
-  .footer-content {
+  .footer h6 {
     font-family: "Galvji-Bold";
     font-size: 10px;
     text-align: center;

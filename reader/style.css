@@ -3,8 +3,8 @@ body {
 }
 
 @font-face {
-    font-family: "BBBAufgangOst-Regular";
-    src: url('custom-font/BBBAufgangOst-Regular.ttf');
+    font-family: "BBBAufgangOst-Regular"; 
+    src: url('BBBAufgangOst-Regular.ttf') format('truetype');
 } 
 
 @font-face {
@@ -29,54 +29,54 @@ body {
 
 
 .header {
-  background-color: blue;
-  height: 40px;
-  display: flex;
-  font-family: "Galvji-Bold";
-  font-size: 10px;
-  justify-content: space-between;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+   background-color: blue;
+   height: 40px;
+   display: flex;
+   font-family: "Galvji-Bold";
+   font-size: 10px;
+   justify-content: space-between;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
 }
 
 .header h1 {
-  font-family: "Galvji-Bold";
-  font-size: 10px;
-  text-align: center;
-  margin: 0;
-  padding: 10px;
-  color: white;
+   font-family: "Galvji-Bold";
+   font-size: 10px;
+   text-align: center;
+   margin: 0;
+   padding: 10px;
+   color: white;
 }
 
 .margin-space {
-  height: 30px;
+   height: 30px;
 }
 
 .title {
-  margin-top: 20px;
-  text-align: center;
+   margin-top: 20px;
+   text-align: center;
 }
 
 .title h2 {
-  font-family: "BBBAufgangOst-Regular";
-  font-size: 80px;
-  margin-top: 30px;
-  margin-bottom: -30px;
-  letter-spacing: 3px;
-  text-align: left;
-  color: blue;
+   font-family: "BBBAufgangOst-Regular";
+   font-size: 80px;
+   margin-top: 30px;
+   margin-bottom: -30px;
+   letter-spacing: 3px;
+   text-align: left;
+   color: blue;
 }
 
 .title h3 {
-  font-family: "BBBAufgangOst-Regular";
-  font-size: 80px;
-  margin-top: -30px;
-  margin-bottom: -30px;
-  letter-spacing: 3px;
-  text-align: center;
-  color: blue;
+   font-family: "BBBAufgangOst-Regular";
+   font-size: 80px;
+   margin-top: -30px;
+   margin-bottom: -30px;
+   letter-spacing: 3px;
+   text-align: center;
+   color: blue;
 }
 
 .title h4 {
@@ -105,21 +105,21 @@ h5 {
 }
 
 hr {
-  width: 100%;
-  height: 3px;
-  border-inline-color: black;
+   width: 100%;
+   height: 3px;
+   border-inline-color: black;
 }
 
 div.item.blue {
-  background-color: blue;
-  font-family: "BigCaslon-Medium"
-  font-size: 20px;
-  text-align: center;
-  color: black;
-  width: 100%;
-  margin-top: 20px
-  margin-bottom: 20px;
-  padding: 40px;
+   background-color: blue;
+   font-family: "BigCaslon-Medium"
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   width: 100%;
+   margin-top: 20px
+   margin-bottom: 20px;
+   padding: 10px;
 } 
 
 main {
@@ -158,22 +158,22 @@ main {
 }
 
 .article h6 {
-  font-family: "BBBAufgangOst-Regular";
-  color: black;
-  font-size: 30px;
-  text-align: left;
-  margin-top: -10px;
-  margin-bottom: 20px;
-  border-radius: 10px;
+   font-family: "BBBAufgangOst-Regular";
+   color: black;
+   font-size: 30px;
+   text-align: left;
+   margin-top: -10px;
+   margin-bottom: 20px;
+   border-radius: 10px;
 }
 
 .date {
-  font-family: "Galvji-Bold";
-  color: black;
-  text-align: left;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+   font-family: "Galvji-Bold";
+   color: black;
+   text-align: left;
+   font-size: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 
 .content.p2 {
@@ -185,29 +185,29 @@ main {
 }
 
 .content.p3 {
-  font-family: "BigCaslon-Medium";
-  color: black;
-  font-size: 20px;
-  padding: 20px;
-  margin-bottom: -10px;
+   font-family: "BigCaslon-Medium";
+   color: black;
+   font-size: 20px;
+   padding: 20px;
+   margin-bottom: -10px;
 }
 
 .content.p4 {
-  font-family: "BigCaslon-Medium";
-  color: black;
-  font-size: 20px;
-  padding: 20px;
-  margin-bottom: -10px;
+   font-family: "BigCaslon-Medium";
+   color: black;
+   font-size: 20px;
+   padding: 20px;
+   margin-bottom: -10px;
 }
 
 .underline-text {
-  text-decoration: underline;
-  margin-bottom: 10px;
-  font-family: "Galvji-Bold";
-  color: blue;
-  font-size: 15px;
-  text-align: left;
-  background-color: white;
+   text-decoration: underline;
+   margin-bottom: 10px;
+   font-family: "Galvji-Bold";
+   color: blue;
+   font-size: 15px;
+   text-align: left;
+   background-color: white;
 }
 
 .margin-space {
@@ -215,27 +215,27 @@ main {
 }
 
 .content.p5 {
-  font-family: "BigCaslon-Medium";
-  color: black;
-  font-size: 20px;
-  padding: 20px;
-  margin-bottom: -10px;
+   font-family: "BigCaslon-Medium";
+   color: black;
+   font-size: 20px;
+   padding: 20px;
+   margin-bottom: -10px;
 }
 
 .contentp6 {
-  font-family: "BigCaslon-Medium";
-  color: black;
-  font-size: 20px;
-  padding: 20px;
-  margin-bottom: -10px;
+   font-family: "BigCaslon-Medium";
+   color: black;
+   font-size: 20px;
+   padding: 20px;
+   margin-bottom: -10px;
 }
 
 .content.p7 {
-  font-family: "BigCaslon-Medium";
-  color: black;
-  font-size: 20px;
-  padding: 20px;
-  margin-bottom: -10px;
+   font-family: "BigCaslon-Medium";
+   color: black;
+   font-size: 20px;
+   padding: 20px;
+   margin-bottom: -10px;
 }
 
   
@@ -266,23 +266,23 @@ div.blockright {
 }
 
 .footer {
-  background-color: blue;
-  height: 40px;
-  display: flex;
-  font-family: "Galvji-Bold";
-  font-size: 10px;
-  justify-content: space-between;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+   background-color: blue;
+   height: 40px;
+   display: flex;
+   font-family: "Galvji-Bold";
+   font-size: 10px;
+   justify-content: space-between;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
 }
 
 .footer p {
-  font-family: "Galvji-Bold";
-  font-size: 10px;
-  text-align: right;
-  margin: 0;
-  padding: 10px;
-  color: white;
+   font-family: "Galvji-Bold";
+   font-size: 10px;
+   text-align: right;
+   margin: 0;
+   padding: 10px;
+   color: white;
 }

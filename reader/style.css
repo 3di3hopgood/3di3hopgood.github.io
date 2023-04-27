@@ -3,8 +3,8 @@ body {
 }
 
 @font-face {
-    font-family: "BBBAufgangOst-Regular"; 
-    src: url('BBBAufgangOstGX.ttf') format('truetype');
+    font-family: "BBBAufgangOstRegularRegular"; 
+    src: url('custom-font/BBBAufgangOstGX.ttf') format('truetype');
 } 
 
 @font-face {
@@ -54,7 +54,7 @@ body {
 }
 
 .title h2 {
-   font-family: "BBBAufgangOst-Regular";
+   font-family: "BBBAufgangOstRegularRegular";
    font-size: 60px;
    margin-top: 30px;
    margin-bottom: -30px;
@@ -64,7 +64,7 @@ body {
 }
 
 .title h3 {
-   font-family: "BBBAufgangOst-Regular";
+   font-family: "BBBAufgangOstRegularRegular";
    font-size: 60px;
    margin-top: -30px;
    margin-bottom: -30px;
@@ -74,7 +74,7 @@ body {
 }
 
 .title h4 {
-    font-family: "BBBAufgangOst-Regular";
+    font-family: "BBBAufgangOstRegularRegular";
     font-size: 60px;
     margin-top: -30px;
     margin-bottom: 30px;
@@ -152,7 +152,7 @@ main {
 }
   
 .article h6 {
-    font-family: "BBBAufgangOst-Regular";
+    font-family: "BBBAufgangOstRegularRegular";
     color: black;
     font-size: 30px;
     text-align: left;
@@ -162,7 +162,7 @@ main {
 }
 
 .article h6 {
-   font-family: "BBBAufgangOst-Regular";
+   font-family: "BBBAufgangOstRegularRegular";
    color: black;
    font-size: 30px;
    text-align: left;

@@ -144,7 +144,7 @@ main {
    font-weight: bold;
    text-transform: uppercase;
    margin-bottom: 20px;
-   
+
 }
 
 .margin-space {
@@ -191,6 +191,7 @@ main {
     color: black;
     font-size: 20px;
     padding: 20px;
+    margin-top: 10px;
     margin-bottom: -10px;
 }
 
@@ -207,11 +208,13 @@ main {
    color: black;
    font-size: 20px;
    padding: 20px;
+   margin-top: 10px;
    margin-bottom: -10px;
 }
 
 .underline-text {
    text-decoration: underline;
+   margin-top: 10px;
    margin-bottom: 10px;
    font-family: "Galvji-Bold";
    color: blue;
@@ -237,6 +240,7 @@ main {
    color: black;
    font-size: 20px;
    padding: 20px;
+   margin-top: 10px;
    margin-bottom: -10px;
 }
 
@@ -245,6 +249,7 @@ main {
    color: black;
    font-size: 20px;
    padding: 20px;
+   margin-top: 10px;
    margin-bottom: -10px;
 }
 

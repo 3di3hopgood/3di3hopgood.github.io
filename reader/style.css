@@ -95,14 +95,15 @@ body {
     color: blue;
 }
 
-h5 {
+.author {
     font-family: "Galvji-Bold";
     font-size: 20px;
+    font-style: bold;
     border-radius: 10px;
     letter-spacing: 1px;
     text-align: left;
     margin-right: 20px;
-    margin-top: 0px;
+    margin-top: 40px;
     color: black;
 }
 

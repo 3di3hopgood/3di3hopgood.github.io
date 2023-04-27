@@ -4,22 +4,12 @@ body {
 
 @font-face {
     font-family: "BBBAufgangOst-Regular"; 
-    src: url('BBBAufgangOst-Regular.ttf') format('truetype');
+    src: url('BBBAufgangOstGX.otf') format('truetype');
 } 
 
 @font-face {
     font-family: "Galvji-Bold";
     src: url('Galvji-Bold.ttc') format('truetype');
-}
-
-@font-face {
-    font-family: "Galvji-Oblique";
-    src: url("Galvji-Oblique.ttc") format('truetype');
-}
-
-@font-face {
-  font-family: "Galvji-BoldOblique";
-  src: url("Galvji-BoldOblique.ttc") format('truetype');
 }
 
 @font-face {

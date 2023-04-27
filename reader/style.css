@@ -125,7 +125,7 @@ div.item.blue {
    text-align: :left;
    color: white;
    width: 100%;
-   max-width: 450px;
+   max-width: 470px;
    margin-top: 20px
    margin-bottom: 20px;
    padding: 10px;
@@ -144,7 +144,6 @@ main {
    font-weight: bold;
    text-transform: uppercase;
    margin-bottom: 20px;
-
 }
 
 .margin-space {

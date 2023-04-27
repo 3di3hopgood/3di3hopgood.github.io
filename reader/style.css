@@ -116,20 +116,6 @@ body {
   margin-top: 10px;
 }
 
-
-div.item.blue {
-   background-color: blue;
-   font-family: "BigCaslon-Medium"
-   font-size: 15px;
-   text-align: :left;
-   color: white;
-   width: 100%;
-   max-width: 400px;
-   margin-top: 20px
-   margin-bottom: 20px;
-   padding: 10px;
-} 
-
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -255,24 +241,25 @@ main {
   margin-bottom: 50px;
 }
 
-div.blockleft {
-   font-family: "BBBAufgangOst-Regular";
-   color: black;
-   font-size: 20px;
-   margin-bottom: 80px;
-   width: 400px;
-   margin-left: 200px;
-   height: 300px
-}
+div.item.blue {
+  background-color: blue;
+  font-family: "BigCaslon-Medium"
+  font-size: 15px;
+  text-align: :left;
+  color: white;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px
+  margin-bottom: 20px;
+  padding: 10px;
+} 
 
-div.blockright {
-   font-family: "BBBAufgangOst-Regular";
-   color: black;
-   font-size: 20px;
-   margin-bottom: 100px;
-   width: 400px;
-   margin-right: 200px;
-   height: 400px
+.line4 {
+  width: 100%;
+  border: none;
+  border-top: 1px solid black;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .footer {

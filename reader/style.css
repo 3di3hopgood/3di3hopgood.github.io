@@ -117,7 +117,7 @@ body {
 }
 
 main {
-    max-width: 800px;
+    max-width: 370px;
     margin: 20px auto;
     padding: 0 10px;
 }
@@ -224,6 +224,13 @@ main {
    background-color: white;
 }
 
+.line {
+  width: 100%;
+  border: none;
+  border-top: 1px solid black;
+  margin-top: 10px;
+}
+
 .margin-space {
   height: 10px;
 }
@@ -251,7 +258,6 @@ main {
    margin-top: 10px;
 }
 
-  
 .line3 {
   width: 100%;
   border: none;

@@ -100,7 +100,7 @@ body {
   border: none;
   border-top: 1px solid black;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .author h5 {
@@ -112,6 +112,13 @@ body {
     text-align: left;
     margin-top: 30px;
     color: black;
+}
+
+.line {
+  width: 100%;
+  border: none;
+  border-top: 1px solid black;
+  margin-top: 10px;
 }
 
 

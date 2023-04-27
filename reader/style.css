@@ -4,7 +4,7 @@ body {
 
 @font-face {
     font-family: "BBBAufgangOstRegularRegular"; 
-    src: url('custom-font/BBBAufgangOstGX.ttf') format('truetype');
+    src: url('BBBAufgangOstGX.ttf') format('truetype');
 } 
 
 @font-face {

@@ -95,7 +95,15 @@ body {
     color: blue;
 }
 
-.h5 {
+.line {
+  width: 100%;
+  border: none;
+  border-top: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.author h5 {
     font-family: "Galvji-Bold";
     font-size: 20px;
     font-style: bold;
@@ -106,25 +114,18 @@ body {
     color: black;
 }
 
-.line {
-   width: 100%;
-   border: none;
-   border-top: 1px solid black;
-   margin-top: 30px;
-   margin-bottom: 50px;
-}
 
 div.item.blue {
    background-color: blue;
    font-family: "BigCaslon-Medium"
-   font-size: 16px;
+   font-size: 15px;
    text-align: :left;
    color: white;
    width: 100%;
    max-width: 500px;
    margin-top: 20px
    margin-bottom: 20px;
-   padding: 20px;
+   padding: 10px;
 } 
 
 main {

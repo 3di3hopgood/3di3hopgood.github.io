@@ -137,7 +137,7 @@ main {
     padding: 0 10px;
 }
 
-.subheading {
+.subheading h2 {
    font-family: "Galvji-Bold";
    color: blue;
    font-size: 10px;

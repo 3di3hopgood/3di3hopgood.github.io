@@ -3,8 +3,8 @@ body {
 }
 
 @font-face {
-    font-family: "BBBAufgangOstRegularRegular"; 
-    src: url('fonts/BBBAufgangOstGX.ttf') format('truetype');
+    font-family: "BBBAufgangOst-Regular"; 
+    src: url('BBBAufgangOstGX.ttf') format('truetype');
 } 
 
 @font-face {

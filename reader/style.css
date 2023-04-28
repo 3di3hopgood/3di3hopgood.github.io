@@ -254,6 +254,7 @@ div.item.blue {
   margin-top: 20px;
   margin-bottom: 40px;
   padding: 20px;
+  box-sizing: border-box;
 } 
 
 .line4 {

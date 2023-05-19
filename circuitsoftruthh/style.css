@@ -1,0 +1,263 @@
+body {
+  background-color: white;
+}
+
+@font-face {
+  font-family: "BBBAufgangOst-Regular"; 
+  src: url('BBBAufgangOstGX.ttf') format('truetype');
+} 
+
+@font-face {
+  font-family: "Galvji-Bold";
+  src: url('Galvji-Bold.ttf') format('truetype');
+}
+
+@font-face {
+font-family: "BigCaslon-Medium";
+src: url("BigCaslon.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "NeueHaasDisplay-Light";
+  src: url("NeueHaasDisplayLight.ttf") format('truetype');
+  }
+
+* {
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+body.html {
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+		font-family: "Polarity";
+}
+
+.test {
+	font-family: "Polarity";
+}
+
+.marquee3k {
+	padding: 50px 0;
+	position: relative;
+	font-size:8em;
+  font-family: "BBBAufgangOst-Regular";
+  font-size: 85px;
+  font-weight: 200;
+  text-align: left;
+  margin: 0;
+  bottom: 0;
+  padding: 30px;
+  color: cornsilk;
+  background-color: blue;
+}
+
+.vertical {
+        transform: rotate(45deg);
+    }
+
+.copy {
+	padding:0 20px;
+}
+
+.header {
+  background-color: blue;
+  height: 100%
+  display: flex;
+  font-family: "NeueHaasDisplay-Light";
+  text-align:right
+  font-size: 10px;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.header h2 {
+  font-family: "NeueHaasDisplay-Light";
+  font-size: 20px;
+  text-align: right;
+  margin: 0;
+  bottom: 0;
+  padding: 10px;
+  color: cornsilk;
+}
+
+div.left {
+  width: 40%;
+  height: 100vh;
+  overflow:scroll;
+  background-color: cornsilk;  
+  padding:20px;
+  display: flex;
+  flex-wrap: wrap;
+  
+  position: absolute;
+  left:0;
+  z-index: 10;
+  transition:1s;  
+}
+
+div.left p {
+  font-family: "NeueHaasDisplay-Light";
+  color: black;
+  font-size: 30px;
+}
+
+div.left:hover {
+  z-index:20;
+  width:90%;
+  transition:1s;
+}
+
+div.right {
+  width:60%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40%;
+
+  position:sticky
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+div.width50 {
+  width: 50%;
+  height: 100%;
+}
+
+div.row3 {
+  background-color: blue;
+  font-size: 30px;
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  width: 100%;
+  height: 100%;
+}
+
+div.row3 h3 {
+  font-family: "NeueHaasDisplay-Light";
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -15px;
+  text-align: right;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+div.row4 {
+  font-family: "BigCaslon-Medium";
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-left: auto;
+  width: 100%;
+}
+
+.button__container {
+  height: 100px;
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: -10px;
+}
+
+div.button a {
+  align-items: center;
+  margin:10px;
+  font-family:"NeueHaasDisplay-Light";
+  background-color: blue;
+  color:cornsilk;
+  display:inline-block;
+  padding:10px;
+  border-radius:20px;
+  text-decoration: none;
+}
+
+div.button a:hover {
+  background-color: cornsilk;
+  color: blue;
+}
+
+.card__layout {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.card__container {
+  height: 500px;
+  position: relative;
+  flex:0 0 33.33%;
+}
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card .side__back {
+  transform: rotateY(180deg);
+  position: absolute;
+  overflow: hidden;
+  color: cornsilk;
+}
+
+.card .side img {
+  width: 100%;
+  height:100%;
+}
+
+
+.footer {
+  background-color: blue;
+  height: 100%;
+  display: flex;
+  font-family: "NeueHaasDisplay-Light";
+  font-size: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer p {
+  font-family: "NeueHaasDisplay-Light";
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: cornsilk;
+}

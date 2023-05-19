@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function() {
+    ;(function(root, factory) {
+  if (typeof define === 'function' && define.amd) {
+    define([], factory);
+  } else if (typeof exports === 'object') {
+    module.exports = factory();
+  } else {
+    root.Marquee3k = factory();
+  }
+}(this, function() {
+  'use strict';
+
+  class Marquee3k {
+    constructor(element, options) {
+      this.element = element;
+      this.selector = options.selector;
+      this.speed = element.dataset.speed || 0.25;
+      this.pausable = element.dataset.pausable;
+      this.reverse = element.dataset.reverse;
+      this.paused = false;
+      this.parent = element.parentElement;
+      this.parentProps = this.parent.getBoundingClientRect();
+      this.content = element.children[0];
+      this.innerContent = this.content.innerHTML;
+      this.wrapStyles = '';
+      this.offset = 0;
+
+      this._setupWrapper();
+      this._setupContent();
+      this._setupEvents();
+
+      this.wrapper.appendChild(this.content);
+      this.element.appendChild(this.wrapper);
+    }
+
+    _setupWrapper() {
+      this.wrapper = document.createElement('div');
+      this.wrapper.classList.add('marquee3k__wrapper');
+      this.wrapper.style.whiteSpace = 'nowrap';
+    }
+
+    _setupContent() {
+      this.content.classList.add(`${this.selector}__copy`);
+      this.content.style.display = 'inline-block';
+      this.contentWidth = this.content.offsetWidth;
+
+      this.requiredReps = this.contentWidth > this.parentProps.width ? 2 : Math.ceil((this.parentProps.width - this.contentWidth) / this.contentWidth) + 1;
+
+      for (let i = 0; i < this.requiredReps; i++) {
+        this._createClone();
+      }
+
+      if (this.reverse) {
+        this.offset = this.contentWidth * -1;
+      }
+
+      this.element.classList.add('is-init');
+    }
+
+    _setupEvents() {
+      this.element.addEventListener('mouseenter', () => {
+        if (this.pausable) this.paused = true;
+      });
+
+      this.element.addEventListener('mouseleave', () => {
+        if (this.pausable) this.paused = false;
+      });
+    }
+
+    _createClone() {
+      const clone = this.content.cloneNode(true);
+      clone.style.display = 'inline-block';
+      clone.classList.add(`${this.selector}__copy`);
+      this.wrapper.appendChild(clone);
+    }
+
+    animate() {
+      if (!this.paused) {
+        const isScrolled = this.reverse ? this.offset < 0 : this.offset > this.contentWidth * -1;
+        const direction = this.reverse ? -1 : 1;
+        const reset = this.reverse ? this.contentWidth * -1 : 0;
+
+        if (isScrolled) this.offset -= this.speed * direction;
+        else this.offset = reset;
+
+        this.wrapper.style.whiteSpace = 'nowrap';
+        this.wrapper.style.transform = `translate(${this.offset}px, 0) translateZ(0)`;
+      }
+    }
+
+    _refresh() {
+      this.contentWidth = this.content.offsetWidth;
+    }
+
+    repopulate(difference, isLarger) {
+      this.contentWidth = this.content.offsetWidth;
+
+      if (isLarger) {
+        const amount = Math.ceil(difference / this.contentWidth) + 1;
+
+        for (let i = 0; i < amount; i++) {
+          this._createClone();
+        }
+      }
+    }
+
+    static refresh(index) {
+      MARQUEES[index]._refresh();
+    }
+
+    static refreshAll() {
+      for (let i = 0; i < MARQUEES.length; i++) {
+        MARQUEES[i]._refresh();
+      }
+    }
+
+    static init(options = { selector: 'marquee3k' }) {
+      window.MARQUEES = [];
+      const marquees = Array.from(document.querySelectorAll(`.${options.selector}`));
+      let previousWidth = window.innerWidth;
+      let timer;
+
+      for (let i = 0; i < marquees.length; i++) {
+        const marquee = marquees[i];
+        const instance = new Marquee3k(marquee, options);
+        MARQUEES.push(instance);
+      }
+
+      animate();
+
+      function animate() {
+        for (let i = 0; i < MARQUEES.length; i++) {
+          MARQUEES[i].animate();
+        }
+        window.requestAnimationFrame(animate);
+      }
+
+      window.addEventListener('resize', () => {
+        clearTimeout(timer);
+
+        timer = setTimeout(() => {
+          const isLarger = previousWidth < window.innerWidth;
+          const difference = window.innerWidth - previousWidth;
+
+          for (let i = 0; i < MARQUEES.length; i++) {
+            MARQUEES[i].repopulate(difference, isLarger);
+          }
+
+          previousWidth = this.innerWidth;
+        });
+      }, 250);
+    }
+  }
+Marquee3k.init();
+
+  });
+
+</script>
+</head>
+<body>
+  
+<div class="marquee3k" data-speed="1">
+    <div class="marquee3k__wrapper">
+      <div class="copy"><span class="test">CIRCUITS OF TRUTH.</span></div>
+    </div>
+</div>
+
+<div class="header">
+    <h2>WELCOME TO CIRCUITS OF TRUTH. THIS PROJECT BY ANNA ENGELHARDT ATTEMPTS TO REVERSE ENGINEER THE MECHANISMS OF TRUTH PRODUCTION BY LOOKING AT THE BROADER DIGITAL INFRASTRUCTURES THEY COMPRISE. IT REFRAMES BLUE TICKS AS AN INFORMATION PROCESSING DEVICE WHOSE FUNCTION IS TO ENCODE AND DECODE SIGNALS. IT FOCUSES ON THE USER INTERACTIONS THAT POWER THIS CIRCUIT, REVEALING HOW ENGAGEMENT RATES DETERMINE WHO OR WHAT IS CONSIDERED 'TRUE'.</h2>
+</div>
+  
+<div class="left">
+  <p>IN THE SATURATED CYBERSCAPE OF POST-TRUTH POLITICS, SOCIAL MEDIA PLATFORMS USE BLUE VERIFICATION MARKS TO HELP USERS DISCRIMINATE BETWEEN 'TRUE' AND 'FAKE'. HOWEVER, LIKE ALL BINARY RATING SYSTEMS, VERIFICATION CANNOT EXPLICITLY DELINEATE THESE TERMS WITHIN ITS OWN SELF-REFERENTIAL LOGIC.</p>
+    <p>POLARISATION ONLY ARISES WHEN 'TRUE' AND 'FALSE' BECOME ENCLOSED IN A SINGLE CIRCUIT, CREATING ARTIFICIAL OPPOSITION -- 'TRUE' AS WHAT IS 'NOT FALSE', AND VICE VERSA.</p>
+    <p>THE RELATIONAL NATURE OF THESE POLARITIES RESULTS IN PRACTICAL PARADOXES, AS EXEMPLIFIED BY FACEBOOK FAILING TO DELETE FAKE PROPAGANDA ACCOUNTS DESPITE ITS REPEATED PROMISES TO BATTLE AGAINST FALSE NEWS.</p>
+</div>
+  
+<div class="right">
+    <img src="background.png" alt="">
+</div>
+
+<div class="row3">
+  <div class="col width50">
+    <img src="verificationtweet.png" alt="">
+  </div>
+
+  <div class="col width50">
+    <h3>VERIFICATION SIGNALS</h3>
+  </div>
+</div>
+
+<div class="row4">
+  <div class="col width50">
+    <p>The idea behind this investigation is to approach blue verification badges as antennas and search for the information they transmit and receive in their infrastructure. </p>
+      <p>Let's look at the backlash Twitter faced in 2017 after awarding an infamous American Nazi a blue tick. The corporation, which had by the time developed a strict code of awarding verification badges that had very little to do with authentication, appeals to the misunderstanding on the users' side.  We know about this code not from the official Twitter accounts but from the dark web ads that propose to get verified on social media.</p>
+      <p>Such code and the fact that the vast majority of authentic accounts remain unverified, as they are not considered worthy of undergoing Twitter's verification process, hints that it was not users who were confused speaking of importance. Since 2017, social media became more explicit that there is something else at stake beyond authenticity - calling it 'notability' or 'prominence' - a qualitative status determined through an internal process that is still opaque. Such hazy terms do not clarify what is being quantified and coded into the blue tick and the implications desired for it by the platform.</p>
+      <p>Considering that verification marks were launched over a decade ago, the simple task of their definition might seem surprisingly complicated. Such complications come from the self-evident appearance of their functions, which make verification badges appear symbolically transparent. Indeed, this seeming transparency is embedded in other parts of social media interfaces. It is well-known now that 'like,' 'share,' and other buttons that users intuitively express themselves with are meant to 'facilitate ranking, product recommendations, and data analytics', and verification marks are part of this overarching logic of data extraction (Plantin et al. 2018:297). To make such extraction possible, social media companies have to constantly downplay their role and mask behind the logic of transparency.</p>
+  </div>
+  <div class="col width50">
+    <p>The companies present themselves as neutral filters and facilitators of data as a natural force, such as a liquid that can flow freely, leak, and overwhelm (Lupton, 2013). Social media platforms present data as a pre-existing natural resource, laying out there to be extracted (or mined), rather than a synthetic product manufactured by extensive infrastructure aimed at manufacturing conditions for users to surrender their information.</p>
+      <p>The infrastructure remains invisible.Platforms could not sustain such invisibility if the interface of this infrastructure did not conceal itself as self-evident, i.e. if the tick or a heart would present the actual metrics at play. You can start messing with such transparency, trying to imagine one symbol in place of another. Would the tick be more similar to a star or a fingerprint, a much more clear signifier of the identity verification? There feels to be a difference between criminological visual language and the god-like blessing of the verification mark.</p>
+      <p>Media companies connected verification marks to the fake news only after the 2016 U.S. election, as they found themselves amid the neverending wave of scandals associated with fake news and trolling. Blue ticks were made responsible for the mitigation of fake news and trolling. Following the 2016 elections, the verification-content chain was mirrored by Facebook in a policy that to purchase 'political or issue-based advertisements would be required to verify their identities and locations', followed by the similar system from Google announced later in 2018.</p>
+      <p>Social media have been gradually piling up notions of truth, without necessarily clarifying any of them: already obscure truth as 'prominence' is now combined with the even more perplexing truth of cyberwar, fueled by the fake news scandals. </p>
+  </div>
+</div>
+
+<div class="button__container">
+ <div class="button">
+   <a href="page2.html">
+    WIRING THE CYBER ELITE
+    BY ANNA ENGELHARDT
+    </a>
+ </div>
+
+ <div class="button">
+   <a href="page2.html">
+    BURSTING BUBBLES
+    BY ANNA ENGELHARDT
+    </a>
+ </div>
+
+ <div class="button">
+   <a href="page2.html">
+    REPUTATION OFFENSE AND DEFENSE
+    BY ANNA ENGELHARDT
+    </a>
+ </div>
+</div>
+
+<div class="card__layout">
+
+<div class="card__container">
+  <div class="card">
+    <div class="side side__front">
+      <img src="1.png" alt="">
+    </div>
+    <div class="side side__back">
+      <img src="1.png" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="card__container">
+  <div class="card">
+    <div class="side side__front">
+      <img src="2.png" alt="">
+    </div>
+    <div class="side side__back">
+      <img src="2.png" alt="">
+    </div>
+  </div>
+</div>
+  
+<div class="card__container">
+  <div class="card">
+    <div class="side side__front">
+      <img src="22.png" alt="">
+    </div>
+    <div class="side side__back">
+      <img src="22.png" alt="">
+    </div>
+  </div>
+</div> 
+
+<div class="footer">
+<p>UPDATED FRIDAY MAY 19, 2023</p>
+</div>
+
+</body>
+</html>

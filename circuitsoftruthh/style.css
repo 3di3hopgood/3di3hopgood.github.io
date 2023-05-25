@@ -56,7 +56,7 @@ body.html {
   margin: 0;
   bottom: 0;
   padding: 30px;
-  color: cornsilk;
+  color: white;
   background-color: blue;
 }
 
@@ -90,14 +90,14 @@ body.html {
   margin: 0;
   bottom: 0;
   padding: 10px;
-  color: cornsilk;
+  color: white;
 }
 
 div.left {
   width: 40%;
   height: 100vh;
   overflow:scroll;
-  background-color: cornsilk;  
+  background-color: white;  
   padding:20px;
   display: flex;
   flex-wrap: wrap;
@@ -186,7 +186,7 @@ div.button a {
   margin:10px;
   font-family:"NeueHaasDisplay-Light";
   background-color: blue;
-  color:cornsilk;
+  color:white;
   display:inline-block;
   padding:10px;
   border-radius:20px;
@@ -194,7 +194,7 @@ div.button a {
 }
 
 div.button a:hover {
-  background-color: cornsilk;
+  background-color: white;
   color: blue;
 }
 
@@ -231,7 +231,7 @@ div.button a:hover {
   transform: rotateY(180deg);
   position: absolute;
   overflow: hidden;
-  color: cornsilk;
+  color: white;
 }
 
 .card .side img {
@@ -259,5 +259,5 @@ div.button a:hover {
   text-align: center;
   margin: 0;
   padding: 10px;
-  color: cornsilk;
+  color: white;
 }

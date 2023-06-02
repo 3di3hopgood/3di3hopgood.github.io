@@ -38,140 +38,33 @@ body.html {
 	padding:0;
 	margin:0;
 	overflow-x:hidden;
-		font-family: "Polarity";
 }
 
-.test {
-	font-family: "Polarity";
+.sticky-header {
+  position: fixed;
+  top: 0%;
+  width: 300px; /* Adjust the width as needed */
+  z-index: 999;
 }
 
-.marquee3k {
-	padding: 50px 0;
-	position: relative;
-	font-size:8em;
-  font-family: "BBBAufgangOst-Regular";
-  font-size: 85px;
-  font-weight: 200;
-  text-align: left;
-  margin: 0;
-  bottom: 0;
-  padding: 30px;
-  color: white;
-  background-color: blue;
-}
-
-.vertical {
-        transform: rotate(45deg);
-    }
-
-.copy {
-	padding:0 20px;
-}
-
-.header {
-  background-color: blue;
-  height: 100%
-  display: flex;
-  font-family: "NeueHaasDisplay-Light";
-  text-align:right
-  font-size: 10px;
-  justify-content: space-between;
-  top: 0;
+.sticky-header.left {
   left: 0;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 40px;
-}
-
-.header h2 {
   font-family: "NeueHaasDisplay-Light";
-  font-size: 20px;
-  text-align: right;
-  margin: 0;
-  bottom: 0;
-  padding: 10px;
-  color: white;
+  font-size: 10px;
+  font-weight: bolder;
+  text-align: left;
 }
 
-div.left {
-  width: 40%;
-  height: 100vh;
-  overflow:scroll;
-  background-color: white;  
-  padding:20px;
-  display: flex;
-  flex-wrap: wrap;
-  
-  position: absolute;
-  left:0;
-  z-index: 10;
-  transition:1s;  
-}
-
-div.left p {
-  font-family: "NeueHaasDisplay-Light";
-  color: black;
-  font-size: 30px;
-}
-
-div.left:hover {
-  z-index:20;
-  width:90%;
-  transition:1s;
-}
-
-div.right {
-  width:60%;
-  height: 100vh;
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 40%;
-
-  position:sticky
-  top: 0;
+.sticky-header.right {
   right: 0;
-  bottom: 0;
-  z-index: 10;
-}
-
-div.width50 {
-  width: 50%;
-  height: 100%;
-}
-
-div.row3 {
-  background-color: blue;
-  font-size: 30px;
-  display: flex;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  margin-left: auto;
-  width: 100%;
-  height: 100%;
-}
-
-div.row3 h3 {
   font-family: "NeueHaasDisplay-Light";
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: -15px;
+  font-size: 10px;
+  font-weight: bolder;
   text-align: right;
-  margin-right: 10px;
-  box-sizing: border-box;
 }
 
-div.row4 {
-  font-family: "BigCaslon-Medium";
-  font-size: 18px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  margin: 100px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-left: auto;
-  width: 100%;
+.sticky-header.transparent {
+  background-color: transparent;
 }
 
 .button__container {
@@ -183,19 +76,67 @@ div.row4 {
 
 div.button a {
   align-items: center;
-  margin:10px;
-  font-family:"NeueHaasDisplay-Light";
-  background-color: blue;
-  color:white;
-  display:inline-block;
-  padding:10px;
   border-radius:20px;
-  text-decoration: none;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
-div.button a:hover {
-  background-color: white;
-  color: blue;
+#hover-image {
+  width: 100%; 
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#hover-image:hover {
+  content: url('title12.png'); 
+}
+
+#hover-image2 {
+  width: 100%; 
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#hover-image2:hover {
+  content: url('title22.png'); 
+}
+
+
+header img {
+  max-width: 100%; 
+}
+
+header h1 {
+  margin: 0; 
+  margin-top: 40px;
+  margin-bottom: 15px;
+  text-align: center; 
+}
+
+header h1 img {
+  max-width: 100%; 
+}
+
+header h2 {
+  font-family: "NeueHaasDisplay-Light";
+  font-size: 30px;
+  text-align: justify;
+  padding: 20px;
+  margin: 0;
+  bottom: 0;
+  color: black;
+}
+
+header h3 {
+  margin: 0; 
+  margin-top: 15px;
+  margin-bottom: 40px;
+  text-align: center; 
+  padding: 20px;
+}
+
+header h3 img {
+  max-width: 100%; 
 }
 
 .card__layout {
@@ -206,11 +147,12 @@ div.button a:hover {
 .card__container {
   height: 500px;
   position: relative;
-  flex:0 0 33.33%;
+  flex:0 0 100%;
 }
 
 .card {
   height: 100%;
+  margin-top: 40px;
   position: absolute;
   transform-style: preserve-3d;
   transition: all 1s;
@@ -237,27 +179,69 @@ div.button a:hover {
 .card .side img {
   width: 100%;
   height:100%;
+  padding: 20px;
 }
 
-
-.footer {
-  background-color: blue;
-  height: 100%;
-  display: flex;
-  font-family: "NeueHaasDisplay-Light";
-  font-size: 10px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  box-sizing: border-box;
+header img {
+  max-width: 100%; 
 }
 
-.footer p {
-  font-family: "NeueHaasDisplay-Light";
-  font-size: 40px;
+header h1 {
+  margin: 0; 
+  margin-top: 40px;
+  margin-bottom: 15px;
+  text-align: center; 
+  padding: 20px;
+}
+
+header h1 img {
+  max-width: 100%;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+header h4 {
+  font-family: "BBBAufgangOst-Regular";
   text-align: center;
+  font-size: 70px;
+  font-weight: 400;
+  padding: 20px;
+  padding-bottom: 15px; 
+}
+
+body p {
+  font-family: "NeueHaasDisplay-Light";
+  font-size: 20px;
+  text-align: justify;
   margin: 0;
-  padding: 10px;
-  color: white;
+  bottom: 0;
+  padding: 20px;
+  color: black;
+}
+
+header h5 {
+  margin: 0; 
+  margin-top: 40px;
+  text-align: center; 
+  padding: 20px;
+}
+
+header h5 img {
+  max-width: 100%;
+  margin-top: -40px;
+  margin-bottom: -10px;
+}
+
+header h6 {
+  margin: 0; 
+  margin-top: 40px;
+  text-align: center; 
+  padding: 20px;
+}
+
+header h6 img {
+  width: 100%;
+  height: auto
+  margin-top: -40px;
+  margin-bottom: -10px;
 }

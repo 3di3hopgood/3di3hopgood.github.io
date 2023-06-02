@@ -45,12 +45,15 @@ body.html {
   top: 0%;
   width: 300px; /* Adjust the width as needed */
   z-index: 999;
+  font-size: 30px;
+  mix-blend-mode: difference;
+  color: WHITE;
 }
 
 .sticky-header.left {
   left: 0;
   font-family: "NeueHaasDisplay-Light";
-  font-size: 10px;
+  font-size: 30px;
   font-weight: bolder;
   text-align: left;
 }
@@ -58,7 +61,7 @@ body.html {
 .sticky-header.right {
   right: 0;
   font-family: "NeueHaasDisplay-Light";
-  font-size: 10px;
+  font-size: 30px;
   font-weight: bolder;
   text-align: right;
 }
@@ -66,6 +69,39 @@ body.html {
 .sticky-header.transparent {
   background-color: transparent;
 }
+
+div.masthead {
+height: 120vh;
+width: 100%;
+background-image: url("cotpng.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+
+div.mastheadtitle {
+  width: 200px;
+  font-size: 30px;
+  font-family: "NeueHaasDisplay-Light";
+}
+
+span.title1 {
+  color: white;
+}
+
+span.title2 {
+  color: black;
+  margin-right: 40px;
+}
+
+span.title3 {
+  color: white;
+}
+
 
 .button__container {
   height: 100px;
@@ -117,14 +153,14 @@ header h1 img {
   max-width: 100%; 
 }
 
-header h2 {
+header p {
   font-family: "NeueHaasDisplay-Light";
   font-size: 30px;
   text-align: justify;
   padding: 20px;
   margin: 0;
   bottom: 0;
-  color: black;
+  color: blue;
 }
 
 header h3 {

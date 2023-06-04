@@ -18,8 +18,8 @@ src: url("BigCaslon.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: "NeueHaasDisplay-Light";
-  src: url("NeueHaasDisplayLight.ttf") format('truetype');
+  font-family: "NeueHaasDisplay-Roman";
+  src: url("NeueHaasDisplayRoman.ttf") format('truetype');
   }
 
 * {
@@ -29,39 +29,40 @@ box-sizing: border-box;
 }
 
 img {
-    width: 100%;
-    display: block;
-    height: auto;
+  width: 100%;
+  display: block;
+  height: auto;
 }
 
 body.html {
 	padding:0;
 	margin:0;
-	overflow-x:hidden;
+	overflow:hidden;
+  width: 100%;
+  height: 100%;
 }
 
 .sticky-header {
   position: fixed;
   top: 0%;
-  width: 300px; /* Adjust the width as needed */
+  width: 400px; /* Adjust the width as needed */
   z-index: 999;
-  font-size: 30px;
   mix-blend-mode: difference;
   color: WHITE;
 }
 
 .sticky-header.left {
   left: 0;
-  font-family: "NeueHaasDisplay-Light";
-  font-size: 30px;
+  font-family: "NeueHaasDisplay-Roman";
+  font-size: 35px;
   font-weight: bolder;
   text-align: left;
 }
 
 .sticky-header.right {
   right: 0;
-  font-family: "NeueHaasDisplay-Light";
-  font-size: 30px;
+  font-family: "NeueHaasDisplay-Roman";
+  font-size: 35px;
   font-weight: bolder;
   text-align: right;
 }
@@ -70,10 +71,10 @@ body.html {
   background-color: transparent;
 }
 
-div.masthead {
+div.container1 {
 height: 120vh;
 width: 100%;
-background-image: url("cotpng.png");
+background-image: url("mastheadfinal.png");
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
@@ -86,35 +87,81 @@ justify-content: center;
 div.mastheadtitle {
   width: 200px;
   font-size: 30px;
-  font-family: "NeueHaasDisplay-Light";
+  font-family: "NeueHaasDisplay-Roman";
+  font-weight: bolder;
 }
 
 span.title1 {
-  color: white;
+  background-color: white;
+  display: inline;
+  color: black;
+  position: relative;
+  top: 19px;
+  margin-left: -93px;
 }
 
 span.title2 {
-  color: black;
-  margin-right: 40px;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 10px;
+  margin-left: -40px;
+  margin-top: 60px;
 }
 
 span.title3 {
-  color: white;
-}
-
-
-.button__container {
-  height: 100px;
+  background-color: white;
+  color: black;
   position: relative;
-  margin-bottom: 100px;
-  margin-top: -10px;
+  top: 3px;
+  margin-left: 63px;
 }
 
-div.button a {
+span.title4 {
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 20px;
+  margin-left: 36px;
+}
+
+span.title5 {
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 38px;
+  margin-left: 50px;
+}
+
+span.title6 {
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 3px;
+  margin-left: 138px;
+}
+
+span.title7 {
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 20px;
+  margin-left: 50px;
+}
+
+
+.button__container1 {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  margin-top: 60px;
+}
+
+div.button1 {
   align-items: center;
   border-radius:20px;
   margin-top: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #hover-image {
@@ -137,7 +184,6 @@ div.button a {
   content: url('title22.png'); 
 }
 
-
 header img {
   max-width: 100%; 
 }
@@ -146,21 +192,40 @@ header h1 {
   margin: 0; 
   margin-top: 40px;
   margin-bottom: 15px;
-  text-align: center; 
-}
-
-header h1 img {
-  max-width: 100%; 
-}
-
-header p {
-  font-family: "NeueHaasDisplay-Light";
-  font-size: 30px;
+  font-family: "NeueHaasDisplay-Roman";
+  font-size: 80px;
   text-align: justify;
   padding: 20px;
   margin: 0;
   bottom: 0;
   color: blue;
+}
+
+.header-container p {
+  font-family: "NeueHaasDisplay-Roman";
+  font-size: 40px;
+  text-align: justify;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+}
+
+header h1 img {
+  width: 100%; 
+}
+
+header h2 {
+  font-family: "NeueHaasDisplay-Roman";
+  color: blue;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px;
+  font-weight: ;
+  margin: 0; 
+  margin-top: -300px;
+  margin-bottom: 60px;
+  text-align: center; 
 }
 
 header h3 {
@@ -236,17 +301,64 @@ header h1 img {
   margin-bottom: -10px;
 }
 
+div.trumpcontainer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 120vh;
+  background-image: url("donald.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: left;
+  position: relative;
+  padding: 20px;
+}
+
+div.title {
+  width: 400px;
+  font-family: "BBBAufgangOst-Regular";
+  font-size: 8vw;
+  display: left;
+}
+
+span.overlaytext1 {
+  display: left;
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  color: white;
+  top: 40%;
+  left: 15%;
+  transform: translate();
+  text-align: left;
+}
+
+span.overlaytext2 {
+  display: left;
+  display: block;
+  position: absolute;
+  top: 200px;
+  left: 15px;
+  transform: translate(-200px, -12);
+  color: white;
+  text-align: left;
+}
+
 header h4 {
   font-family: "BBBAufgangOst-Regular";
   text-align: center;
   font-size: 70px;
   font-weight: 400;
   padding: 20px;
-  padding-bottom: 15px; 
+  padding-bottom: 15px;
+  color: white;
+  background-color: blue; 
 }
 
 body p {
-  font-family: "NeueHaasDisplay-Light";
+  font-family: "NeueHaasDisplay-Roman";
   font-size: 20px;
   text-align: justify;
   margin: 0;
@@ -263,7 +375,8 @@ header h5 {
 }
 
 header h5 img {
-  max-width: 100%;
+  width: 100%;
+  text-align: center; 
   margin-top: -40px;
   margin-bottom: -10px;
 }
@@ -278,6 +391,315 @@ header h6 {
 header h6 img {
   width: 100%;
   height: auto
-  margin-top: -40px;
+  margin-top: 40px;
   margin-bottom: -10px;
+}
+
+div.width33 {
+  width: 33.333%;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  background-image: url("glitch2.png");
+}
+
+.image-container img {
+  width: 140%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.image-with-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.image-text1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-top: 15px;
+  font-family: "NeueHaasDisplay-Roman";
+  font-weight: bolder;
+  font-size: 25px;
+  color: white;
+}
+
+.image-text2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  font-family: "NeueHaasDisplay-Roman";
+  font-weight: bolder;
+  font-size: 25px;
+  color: white;
+}
+
+.image-text3 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  text-align: right;
+  margin-top: 15px;
+  font-family: "NeueHaasDisplay-Roman";
+  font-weight: bolder;
+  font-size: 25px;
+  color: white;
+}
+
+.image-textunderline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+  font-family: "NeueHaasDisplay-Roman";
+  font-weight: bolder;
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+
+.sticky-footer {
+  position: fixed;
+  bottom: 0%;
+  width: 400px; /* Adjust the width as needed */
+  z-index: 9999;
+  mix-blend-mode: difference;
+  color: white;
+}
+
+.sticky-footer.left {
+  left: 0;
+  font-family: "NeueHaasDisplay-Roman";
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.sticky-footer.right {
+  right: 0;
+  font-family: "NeueHaasDisplay-Roman";
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.sticky-footer.transparent {
+  background-color: transparent;
+}
+
+.article-header header {
+  top: 0;
+  width: 100%;
+}
+
+.classification-header {
+  text-transform: uppercase;
+  font-family: "NeueHaasDisplay-Roman";
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.intro-ps {
+  columns: 2;
+  margin: 0 0 2rem 0;
+  > p:first-child {
+    text-indent: 0;
+    strong {
+      font-size: 125%;
+      letter-spacing: -1px;
+      line-height: 0;
+    }
+  }
+  @media (max-width: 520px) {
+    columns: 1; 
+  }
+}
+
+.in-brief {
+  background-image: url("glitch2.png");
+  height: 100%;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.in-brief-content {
+  color: white;
+  columns: 3;
+  font-size: 0.8rem;
+  text-align: left;
+  padding: 20px;
+  @media (max-width: 520px) {
+    columns: 2; 
+  }
+}
+
+h1 {
+  
+}
+h2 {
+  font-family: "NeueHaasDisplay-Roman";
+  font-weight: 400;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 80px;
+  color: blue;
+}
+h3 {
+  
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  text-indent: 2rem;
+  margin: 0;
+}
+
+.byline {
+  font-family: "NeueHaasDisplay-Roman";
+  margin-left: 20px;
+}
+
+.article-body {
+  font-size: 0.9rem;
+  max-width: 500px;
+  margin: 0 auto;
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+  }
+}
+
+.article-header h2 {
+  font-family: "NeueHaasDisplay-Roman";
+  font-weight: 400;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 80px;
+  color: blue;
+}
+
+figure {
+  margin: 1rem 0;
+  figcaption {
+    font-weight: bold;
+    letter-spacing: -0.03rem;
+  }
+  img {
+    margin: 0 0 5px 0;
+  }
+}
+
+figure {
+  width: 100%;
+  figcaption {
+    font-weight: bold;
+    letter-spacing: -0.03rem;
+  }
+}
+
+.article-footer figure {
+  padding: 20px;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.menu p {
+  font-family:"BBBAufgangOst-Regular";
+  margin-left: -25px;
+  margin-top: 15px;
+  margin-bottom: -30px;
+  font-size: 40px;
+}
+
+.card__layout {
+  display:flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.card__container {
+  height: 500px;
+  position: relative;
+  flex:0 0 33.33%;
+  margin-bottom: 40px;
+}
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+  height: 100%;
+}
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  display: flex; 
+}
+
+.card .side__back {
+  height: 500px;
+  background: blue;
+  transform: rotateY(180deg);
+}
+
+.card .side img {
+  width: 100%;
+  height:100%;
+}
+
+div.button a {
+  align-items: center;
+  margin:10px;
+  font-family:"NeueHaasDisplay-Roman";
+  font-weight: bolder;
+  font-size: 40px;
+  background-color: blue;
+  outline: 1px; color: white;
+  display:inline-block;
+  display:flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: absolute;
+  padding: 20px;
+  text-decoration: none;
+}
+
+div.button a:hover {
+  background-color: white;
+  color: blue;
 }

@@ -703,3 +703,11 @@ div.button a:hover {
   background-color: white;
   color: blue;
 }
+
+a {
+  font-family: "NeueHaasDisplay-Roman";
+  font-size: 35px;
+  font-weight: bolder;
+  color: white; /* Link text color */
+  text-decoration: none; /* Remove underline */
+}

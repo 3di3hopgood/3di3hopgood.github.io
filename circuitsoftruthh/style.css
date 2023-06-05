@@ -45,7 +45,7 @@ body.html {
 .sticky-header {
   position: fixed;
   top: 0%;
-  width: 400px; /* Adjust the width as needed */
+  width: 400px;
   z-index: 999;
   mix-blend-mode: difference;
   color: WHITE;
@@ -421,7 +421,6 @@ div.width33 {
   text-align: center;
 }
 
-
 .image-text1 {
   display: flex;
   position: relative;
@@ -478,7 +477,7 @@ div.width33 {
 .sticky-footer {
   position: fixed;
   bottom: 0%;
-  width: 400px; /* Adjust the width as needed */
+  width: 400px;
   z-index: 9999;
   mix-blend-mode: difference;
   color: white;
@@ -509,17 +508,6 @@ div.width33 {
   width: 100%;
 }
 
-.classification-header {
-  text-transform: uppercase;
-  font-family: "NeueHaasDisplay-Roman";
-  color: black;
-  font-size: 30px;
-  text-align: center;
-  font-weight: bolder;
-  letter-spacing: 0.1rem;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
 
 .intro-ps {
   columns: 2;
@@ -554,9 +542,6 @@ div.width33 {
   }
 }
 
-h1 {
-  
-}
 h2 {
   font-family: "NeueHaasDisplay-Roman";
   font-weight: 400;
@@ -565,12 +550,11 @@ h2 {
   margin-top: 80px;
   color: blue;
 }
-h3 {
-  
-}
+
 h4 {
   font-family: 'Montserrat', sans-serif;
 }
+
 p {
   text-indent: 2rem;
   margin: 0;
@@ -708,6 +692,6 @@ a {
   font-family: "NeueHaasDisplay-Roman";
   font-size: 35px;
   font-weight: bolder;
-  color: white; /* Link text color */
-  text-decoration: none; /* Remove underline */
+  color: white; 
+  text-decoration: none;
 }
